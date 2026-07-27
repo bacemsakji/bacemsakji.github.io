@@ -38,6 +38,7 @@ export const projects: Project[] = [
     ],
     stack: ["React.js", "Node.js", "Supabase", "PostgreSQL", "Vercel", "Render"],
     github: "https://github.com/bacemsakji",
+    live: "https://sakji-auto-shop.vercel.app",
   },
   {
     id: "q-ai-hub",
