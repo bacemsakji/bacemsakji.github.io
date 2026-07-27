@@ -7,6 +7,20 @@ export interface Cert {
 
 export const certs: Cert[] = [
   {
+    id: "cisco-junior-cybersecurity-analyst",
+    title: "Junior Cybersecurity Analyst Career Path",
+    issuer: "Cisco",
+    description:
+      "Career-path training focused on SOC workflows, incident analysis, network defense, and security operations fundamentals.",
+  },
+  {
+    id: "harness-security-testing-orchestration",
+    title: "Harness Certified Security Testing Orchestration Developer",
+    issuer: "Harness",
+    description:
+      "Validated knowledge of orchestrating security testing workflows across modern delivery pipelines.",
+  },
+  {
     id: "ccna1",
     title: "CCNA1",
     issuer: "Cisco",

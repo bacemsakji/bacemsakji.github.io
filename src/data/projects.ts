@@ -10,6 +10,21 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "cyberthread",
+    title: "CyberThread",
+    description:
+      "Ongoing cybersecurity project developed during the ANCS internship to support SOC-oriented monitoring and automation workflows.",
+    details: [
+      "Built as an in-progress internship project at ANCS",
+      "Uses Wazuh for security monitoring and alert visibility",
+      "Uses n8n to automate investigation and response workflows",
+      "Focused on SOC practices, alert handling, and operational efficiency",
+      "Designed to connect detection signals with practical automation pipelines",
+    ],
+    stack: ["Wazuh", "n8n", "SOC", "Security Monitoring", "Automation"],
+    github: "https://github.com/bacemsakji",
+  },
+  {
     id: "sakji-autoshop",
     title: "SakjiAutoshop",
     description:

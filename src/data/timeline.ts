@@ -11,6 +11,16 @@ export interface TimelineEntry {
 
 export const timelineEntries: TimelineEntry[] = [
   {
+    id: "ancs-intern",
+    type: "work",
+    icon: "lock",
+    date: "July - August 2026",
+    role: "Cybersecurity Intern",
+    organization: "ANCS - Agence Nationale de Cybersecurite",
+    description:
+      "Contributing to CyberThread, an in-progress SOC automation project leveraging Wazuh, n8n, and SOC practices during the internship.",
+  },
+  {
     id: "cimf-intern",
     type: "work",
     icon: "lock",

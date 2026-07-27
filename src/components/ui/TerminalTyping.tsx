@@ -14,11 +14,10 @@ export default function TerminalTyping({
   const [displayed, setDisplayed] = useState<string[]>([]);
   const [currentLine, setCurrentLine] = useState(0);
   const [currentChar, setCurrentChar] = useState(0);
-  const [done, setDone] = useState(false);
+  const done = currentLine >= lines.length;
 
   useEffect(() => {
-    if (currentLine >= lines.length) {
-      setDone(true);
+    if (done) {
       return;
     }
     const line = lines[currentLine];
@@ -39,7 +38,7 @@ export default function TerminalTyping({
       }, pauseMs);
       return () => clearTimeout(t);
     }
-  }, [currentLine, currentChar, lines, typingSpeed, pauseMs]);
+  }, [currentLine, currentChar, done, lines, typingSpeed, pauseMs]);
 
   return (
     <div className="terminal-window">

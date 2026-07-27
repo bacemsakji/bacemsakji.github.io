@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Vite. D
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [https://bacemsakji.github.io/portfolio](https://bacemsakji.github.io/portfolio)
+Visit the live portfolio: [https://bacemsakji.github.io/](https://bacemsakji.github.io/)
 
 ## 🛠️ Tech Stack
 
@@ -13,7 +13,7 @@ Visit the live portfolio: [https://bacemsakji.github.io/portfolio](https://bacem
 - **Styling**: CSS with custom theming (dark/light mode)
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
-- **Deployment**: Vercel
+- **Deployment**: GitHub Pages
 
 ## ✨ Features
 
