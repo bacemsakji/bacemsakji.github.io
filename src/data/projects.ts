@@ -22,7 +22,7 @@ export const projects: Project[] = [
       "Designed to connect detection signals with practical automation pipelines",
     ],
     stack: ["Wazuh", "n8n", "SOC", "Security Monitoring", "Automation"],
-    github: "https://github.com/bacemsakji",
+    github: "https://github.com/bacemsakji/cyberthread",
   },
   {
     id: "sakji-autoshop",
@@ -106,5 +106,47 @@ export const projects: Project[] = [
     ],
     stack: ["VIP", "Load Balancer", "WAF", "Linux", "Network Security", "High Availability"],
     github: "https://github.com/bacemsakji",
+  },
+  {
+    id: "aws-terraform-infrastructure",
+    title: "AWS Cloud Infrastructure with Terraform",
+    description:
+      "Provisioned and version-controlled a multi-tier AWS environment using Terraform, enabling reproducible, one-command infrastructure deployment.",
+    details: [
+      "Configured IAM roles and security groups following least-privilege principles",
+      "Used remote state (S3 backend) to make the setup collaboration-ready",
+      "Multi-tier AWS environment with VPC, EC2, S3, and IAM components",
+      "Infrastructure as Code approach for reproducible deployments",
+    ],
+    stack: ["Terraform", "AWS", "VPC", "EC2", "S3", "IAM", "Infrastructure as Code"],
+    github: "https://github.com/bacemsakji/AWS-terraform-infrastructure",
+  },
+  {
+    id: "devsecops-cicd-pipeline",
+    title: "DevSecOps CI/CD Pipeline",
+    description:
+      "Built a Jenkins pipeline to build, test, and deploy a containerized app to a Kubernetes cluster, integrating automated Trivy vulnerability scanning.",
+    details: [
+      "Integrated automated Trivy vulnerability scanning to block images with critical CVEs before release",
+      "Wrote the pipeline as declarative code (Jenkinsfile) with staged gates — build, test, scan, deploy",
+      "Failure at any stage stops the release before it reaches production",
+      "Containerized application deployment to Kubernetes cluster",
+    ],
+    stack: ["Jenkins", "Docker", "Kubernetes", "Trivy", "CI/CD", "Security Scanning"],
+    github: "https://github.com/bacemsakji/devsecops-cicd-pipeline",
+  },
+  {
+    id: "cloud-honeypot",
+    title: "Cloud-Hosted Honeypot",
+    description:
+      "Deployed a low-interaction honeypot on AWS EC2 to capture and log unauthorized access attempts, port scans, and brute-force traffic from real-world attackers.",
+    details: [
+      "Built a custom Go service to parse captured logs, fingerprint attacker IPs and tools",
+      "Visualized attack patterns — turning raw traffic into an analyzable threat feed",
+      "Captured real-world attack data including unauthorized access attempts and port scans",
+      "Deployed on AWS EC2 with Docker containerization",
+    ],
+    stack: ["Go", "AWS", "Docker", "EC2", "Security", "Threat Analysis"],
+    github: "https://github.com/bacemsakji/cloud-hosted-honeypot",
   },
 ];

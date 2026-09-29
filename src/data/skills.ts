@@ -18,10 +18,18 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: "DevOps",
-    skills: ["Docker", "GitHub Actions", "Vercel", "Render", "Git", "Linux"],
+    skills: ["Docker", "Jenkins", "Kubernetes", "Terraform", "GitHub Actions", "Vercel", "Render", "Git", "Linux", "Grafana"],
+  },
+  {
+    category: "Cloud",
+    skills: ["AWS (S3, EC2, IAM)", "Infrastructure as Code"],
   },
   {
     category: "Security",
-    skills: ["Kali Linux", "Wireshark", "Metasploit", "Burp Suite", "Nmap"],
+    skills: ["Kali Linux", "Wireshark", "Metasploit", "Burp Suite", "Nmap", "Wazuh", "Cryptography", "IPS", "IDS"],
+  },
+  {
+    category: "Programming Languages",
+    skills: ["Python", "Java", "C", "C++", "Go"],
   },
 ];

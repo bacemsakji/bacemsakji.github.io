@@ -45,4 +45,10 @@ export const certs: Cert[] = [
     issuer: "Competitive Programming Club",
     description: "Active member participating in algorithmic problem-solving and team challenges.",
   },
+  {
+    id: "aws-cloud-practitioner",
+    title: "AWS SimuLearn Cloud Practitioner",
+    issuer: "AWS",
+    description: "Foundational AWS cloud knowledge covering core services, security, and architecture best practices.",
+  },
 ];
